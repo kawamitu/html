@@ -15,12 +15,11 @@
      $kisetu = '夏';
  } elseif ($tuki >= 9 && $tuki <= 11) {
      $kisetu = '秋';
- } else {
-     $kiseth = '冬';
+ } elseif ($tuki == 12 || ($tuki >= 1 && $tuki <= 2)) {
+     $kisetu = '冬';
  }
  
- 
- echo $tuki . '月は' . $kiseth . 'の季節です。';
+ echo "{$tuki}月は{$kisetu}です。";
  ?>
 </body>
 </html>
