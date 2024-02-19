@@ -7,20 +7,19 @@
 </head>
 <body>
  <?php
-  $getu = '月曜日';
-  $ka = '火曜日';
-  $sui = '水曜日';
-  $moku = '木曜日';
-  $kin = '金曜日';
-  $dou = '土曜日';
-  $niti = '日曜日';
+  
+  $week  = array('月曜日','火曜日','水曜日','木曜日','金曜日','土曜日','日曜日');
+
  ?>
- <ul><li><?= $getu; ?></li></ul>
- <ul><li><?= $ka; ?></li></ul>
- <ul><li><?= $sui; ?></li></ul>
- <ul><li><?= $moku; ?></li></ul>
- <ul><li><?= $kin; ?></li></ul>
- <ul><li><?= $dou; ?></li></ul>
- <ul><li><?= $niti; ?></li></ul>
+ 
+ <ul>
+  <li><?=$week[0]; ?></li>
+  <li><?=$week[1]; ?></li>
+  <li><?=$week[2]; ?></li>
+  <li><?=$week[3]; ?></li>
+  <li><?=$week[4]; ?></li>
+  <li><?=$week[5]; ?></li>
+  <li><?=$week[6]; ?></li>
+ </ul>
 </body>
 </html>

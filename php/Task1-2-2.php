@@ -7,7 +7,7 @@
 </head>
 <body>
   <?php
-  define('TAX','10');
+  define('TAX',10);
   $pno = 100;
   $eraser = 200;
   $pnoa = 110;
