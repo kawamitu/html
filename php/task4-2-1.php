@@ -36,7 +36,12 @@ switch ($tuki) {
 }
 
 echo "{$tuki}月は{$kisetu}です。";
+echo $tuki.'月は'.$kisetu.'です。';
 
+echo $tuki;
+echo '月は';
+echo $kisetu;
+echo 'です。';
 ?>
 </body>
 </html>

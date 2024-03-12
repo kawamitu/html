@@ -7,7 +7,7 @@
 </head>
 <body>
   <?php
-  $a = mt_rand(0, 100);
+  $a = mt_rand(1, 100);
 
   if ($a <= 5) {
       $judge = '大凶';
