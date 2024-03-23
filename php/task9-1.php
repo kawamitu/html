@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="21.css">
+  <link rel="stylesheet" href="task9-1.css">
   <title>Document</title>
 </head>
 <body>
@@ -37,68 +37,13 @@
     <section class="con_01">
       <div class="wrapper">
         <h1>お問い合わせ</h1>
-        <p>お問い合わせや業務内容に関するご質問は、電話またはこちらのお問い合わせフォームより承っております。<br>
-          後ほど担当者よりご連絡させていただきます。</p>
+        <div class="sousin">
+          <h1>送信完了しました。</h1>
+        </div>
       </div>
     </section>
     <!-- ↑お問い合わせ文章 -->
-<section class="con_02">
-			<div class="wrapper">
-				<div class="contact">
-					<table>
-						<tr>
-							<th>お名前<span>必須</span></th>
-							<td>
-								<input class="contact-6" type="text" placeholder="山田太郎" value="">
-							</td>
-						</tr>
-						<tr>
-							<th>フリガナ<span>必須</span></th>
-							<td>
-								<input class="contact-6" type="text" placeholder="ヤマダタロウ" value="">
-							</td>
-						</tr>
-						<tr>
-							<th>メールアドレス<span>必須</span></th>
-							<td>
-								<input class="contact-6" type="email" placeholder="info@fast-creademy.jp" value="" name="user_email">
-							</td>
-						</tr>
-						<tr>
-							<th>電話番号<span>必須</span></th>
-							<td>
-								<input class="contact-6" type="tel" placeholder="info@fast-creademy.jp" value="" name="user_tel">
-							</td>
-						</tr>
-						<tr>
-							<th>お問い合わせ項目<span>必須</span></th>
-							<td>
-								<select class="contact-3" tabindex="0">
-									<option option value ="" tabindex="0" selected="">選択してください</option>
-									<option value="選択" tabindex="1">選択</option>
-									<option value="選択" tabindex="2">選択</option>
-									<option value="選択" tabindex="1">選択</option>
-								</select>
-							</td>
-						</tr>
-						<tr>
-							<th>お問い合わせ内容<span>必須</span></th>
-							<td><textarea class="contact-7" placeholder="こちらにお問い合わせ内容をご記入ください" cols="50" rows="50" tabindex="0" accesskey="U"></textarea>
-							</td>
-						</tr>
-						<tr>
-							<th>個人情報保護方針<span>必須</span></th>
-							<td>
-								<input type="checkbox"><a class="agree" href="null">個人情報保護方針<i class="fas fa-window-restore"></i></a>  に同意します。
-							</td>
-						</tr>
-					</table>
-				</div>
-				<div class="more_btn_01 btn_center">
-					<button>確認</button>
-				</div>
-			</div>
-</section>
+
 <!-- /* こちらからご購入、お問い合わせ↓ */ -->
 <section id="foot_01">
 	<div class="wrapper">

@@ -14,3 +14,5 @@
   ?></p>
 </body>
 </html>
+<!-- sudo systemctl start httpd  -->
+<!-- service httpd status -->
